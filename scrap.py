@@ -30,9 +30,9 @@ def download_images(image_urls, target_folder):
 
 def scrape_images(search_url, number_images):
     image_urls = fetch_image_urls(search_url, number_images)
-    target_folder = './scraped_images'
+    target_folder = './scraped_images2'
     download_images(image_urls, target_folder)
 
-search_url = 'https://www.google.com/search?sca_esv=781fa1a7ec643214&sca_upv=1&rlz=1C5MACD_enIN1079IN1080&sxsrf=ACQVn09uL7oPlPQsRwSVQmHtwf48LD3MpQ:1711115469601&q=hand+palm&tbm=isch&source=lnms&prmd=isvnmbtz&sa=X&ved=2ahUKEwiXx_DtgYiFAxUnSGcHHRSACJcQ0pQJegQIHRAB&biw=1440&bih=779&dpr=2'
+search_url = 'https://www.google.com/search?q=palm++hand+images&sca_esv=e2291660b3e8fe71&sca_upv=1&rlz=1C5MACD_enIN1079IN1080&udm=2&biw=1440&bih=779&sxsrf=ACQVn095r5Trg2sBwa3bN4eMlVVexswcAg%3A1712805109420&ei=9VQXZr2bGa6cseMPs7yauAw&ved=0ahUKEwj96fagmLmFAxUuTmwGHTOeBscQ4dUDCBA&uact=5&oq=palm++hand+images&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXBhbG0gIGhhbmQgaW1hZ2VzMgUQABiABDIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBRgeMgYQABgFGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHkivEVDoA1iKC3ABeACQAQCYAWKgAa8EqgEBNrgBA8gBAPgBAZgCB6ACxATCAgoQABiABBiKBRhDwgIIEAAYBRgHGB7CAggQABgIGAcYHpgDAIgGAZIHAzYuMaAH-SQ&sclient=gws-wiz-serp'
 number_images = 50
 scrape_images(search_url, number_images)
